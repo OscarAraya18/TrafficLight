@@ -1,1 +1,10 @@
-x EQU 2
+		AREA codigoSemaforos, CODE, READONLY
+		ENTRY
+		EXPORT	__main
+
+
+__main	
+
+
+
+		END	

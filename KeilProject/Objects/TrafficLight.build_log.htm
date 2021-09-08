@@ -22,16 +22,16 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 C:\Users\OscarAraya\Desktop\TrafficLight\KeilProject\TrafficLight.uvprojx
-Project File Date:  09/07/2021
+Project File Date:  09/08/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-sourceCode.s(1): error: unexpected token in argument list
-x EQU 2
-      ^
 assembling sourceCode.s...
-".\Objects\TrafficLight.axf" - 1 Error(s), 0 Warning(s).
+linking...
+Program Size: Code=104 RO-data=960 RW-data=4 ZI-data=1024  
+FromELF: creating hex file...
+".\Objects\TrafficLight.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -39,12 +39,22 @@ Package Vendor: ARM
                 http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
                 ARM.CMSIS.5.8.0
                 CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+   * Component: Startup Version: 1.2.2
 
 <h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\OscarAraya\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
   C:\Users\OscarAraya\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
 
 <h2>Collection of Component Files used:</h2>
-Target not created.
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::Device:Startup:1.2.2
+      Include file:  Device\ARM\ARMCM3\Include\ARMCM3.h
+      Source file:   Device\ARM\ARMCM3\Source\system_ARMCM3.c
+      Source file:   Device\ARM\ARMCM3\Source\ARM\startup_ARMCM3.s
 Build Time Elapsed:  00:00:01
 </pre>
 </body>
